@@ -1,0 +1,224 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bowerbower',
+1 verbose cli   'install',
+1 verbose cli   'admin-lte' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData bowerbower
+8 silly fetchPackageMetaData install
+9 silly fetchPackageMetaData admin-lte
+10 silly fetchNamedPackageData bowerbower
+11 silly mapToRegistry name bowerbower
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'bowerbower',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'bowerbower',
+14 silly mapToRegistry   name: 'bowerbower',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/bowerbower
+16 silly fetchNamedPackageData install
+17 silly mapToRegistry name install
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'install',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'install',
+20 silly mapToRegistry   name: 'install',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/install
+22 silly fetchNamedPackageData admin-lte
+23 silly mapToRegistry name admin-lte
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'admin-lte',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'admin-lte',
+26 silly mapToRegistry   name: 'admin-lte',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/admin-lte
+28 verbose request uri https://registry.npmjs.org/bowerbower
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 7:14:24 AM
+31 verbose request id 2e419756be29bce4
+32 http request GET https://registry.npmjs.org/bowerbower
+33 verbose request uri https://registry.npmjs.org/install
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 7:14:24 AM
+36 http request GET https://registry.npmjs.org/install
+37 verbose request uri https://registry.npmjs.org/admin-lte
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 7:14:24 AM
+40 http request GET https://registry.npmjs.org/admin-lte
+41 http 200 https://registry.npmjs.org/admin-lte
+42 verbose headers { server: 'nginx/1.10.1',
+42 verbose headers   'content-type': 'application/json',
+42 verbose headers   'last-modified': 'Sat, 10 Dec 2016 21:22:42 GMT',
+42 verbose headers   etag: 'W/"584c7222-5231"',
+42 verbose headers   'content-encoding': 'gzip',
+42 verbose headers   'cache-control': 'max-age=300',
+42 verbose headers   'content-length': '4224',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   date: 'Tue, 13 Dec 2016 00:14:22 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   age: '115',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+42 verbose headers   'x-cache': 'HIT',
+42 verbose headers   'x-cache-hits': '1',
+42 verbose headers   'x-timer': 'S1481588062.769262,VS0,VE0',
+42 verbose headers   vary: 'Accept-Encoding' }
+43 silly get cb [ 200,
+43 silly get   { server: 'nginx/1.10.1',
+43 silly get     'content-type': 'application/json',
+43 silly get     'last-modified': 'Sat, 10 Dec 2016 21:22:42 GMT',
+43 silly get     etag: 'W/"584c7222-5231"',
+43 silly get     'content-encoding': 'gzip',
+43 silly get     'cache-control': 'max-age=300',
+43 silly get     'content-length': '4224',
+43 silly get     'accept-ranges': 'bytes',
+43 silly get     date: 'Tue, 13 Dec 2016 00:14:22 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     age: '115',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-sin6924-SIN',
+43 silly get     'x-cache': 'HIT',
+43 silly get     'x-cache-hits': '1',
+43 silly get     'x-timer': 'S1481588062.769262,VS0,VE0',
+43 silly get     vary: 'Accept-Encoding' } ]
+44 verbose get saving admin-lte to C:\Users\hoang\AppData\Roaming\npm-cache\registry.npmjs.org\admin-lte\.cache.json
+45 verbose correctMkdir C:\Users\hoang\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+46 http 200 https://registry.npmjs.org/install
+47 verbose headers { server: 'nginx/1.10.1',
+47 verbose headers   'content-type': 'application/json',
+47 verbose headers   'last-modified': 'Tue, 25 Oct 2016 00:00:51 GMT',
+47 verbose headers   etag: 'W/"580ea0b3-c640"',
+47 verbose headers   'content-encoding': 'gzip',
+47 verbose headers   'cache-control': 'max-age=300',
+47 verbose headers   'content-length': '6566',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   date: 'Tue, 13 Dec 2016 00:14:22 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   age: '0',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+47 verbose headers   'x-cache': 'HIT',
+47 verbose headers   'x-cache-hits': '1',
+47 verbose headers   'x-timer': 'S1481588062.761957,VS0,VE202',
+47 verbose headers   vary: 'Accept-Encoding' }
+48 silly get cb [ 200,
+48 silly get   { server: 'nginx/1.10.1',
+48 silly get     'content-type': 'application/json',
+48 silly get     'last-modified': 'Tue, 25 Oct 2016 00:00:51 GMT',
+48 silly get     etag: 'W/"580ea0b3-c640"',
+48 silly get     'content-encoding': 'gzip',
+48 silly get     'cache-control': 'max-age=300',
+48 silly get     'content-length': '6566',
+48 silly get     'accept-ranges': 'bytes',
+48 silly get     date: 'Tue, 13 Dec 2016 00:14:22 GMT',
+48 silly get     via: '1.1 varnish',
+48 silly get     age: '0',
+48 silly get     connection: 'keep-alive',
+48 silly get     'x-served-by': 'cache-sin6925-SIN',
+48 silly get     'x-cache': 'HIT',
+48 silly get     'x-cache-hits': '1',
+48 silly get     'x-timer': 'S1481588062.761957,VS0,VE202',
+48 silly get     vary: 'Accept-Encoding' } ]
+49 verbose get saving install to C:\Users\hoang\AppData\Roaming\npm-cache\registry.npmjs.org\install\.cache.json
+50 verbose correctMkdir C:\Users\hoang\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+51 http 404 https://registry.npmjs.org/bowerbower
+52 verbose headers { 'content-type': 'application/json',
+52 verbose headers   'cache-control': 'max-age=0',
+52 verbose headers   'content-length': '2',
+52 verbose headers   'accept-ranges': 'bytes',
+52 verbose headers   date: 'Tue, 13 Dec 2016 00:14:23 GMT',
+52 verbose headers   via: '1.1 varnish',
+52 verbose headers   age: '0',
+52 verbose headers   connection: 'keep-alive',
+52 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+52 verbose headers   'x-cache': 'MISS',
+52 verbose headers   'x-cache-hits': '0',
+52 verbose headers   'x-timer': 'S1481588062.772287,VS0,VE1076',
+52 verbose headers   vary: 'Accept-Encoding' }
+53 silly get cb [ 404,
+53 silly get   { 'content-type': 'application/json',
+53 silly get     'cache-control': 'max-age=0',
+53 silly get     'content-length': '2',
+53 silly get     'accept-ranges': 'bytes',
+53 silly get     date: 'Tue, 13 Dec 2016 00:14:23 GMT',
+53 silly get     via: '1.1 varnish',
+53 silly get     age: '0',
+53 silly get     connection: 'keep-alive',
+53 silly get     'x-served-by': 'cache-sin6923-SIN',
+53 silly get     'x-cache': 'MISS',
+53 silly get     'x-cache-hits': '0',
+53 silly get     'x-timer': 'S1481588062.772287,VS0,VE1076',
+53 silly get     vary: 'Accept-Encoding' } ]
+54 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/bowerbower
+54 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+54 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+54 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+54 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+54 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+54 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+54 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1044:10)
+54 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+54 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+54 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:965:12)
+54 silly fetchPackageMetaData  error for bowerbower { Error: Registry returned 404 for GET on https://registry.npmjs.org/bowerbower
+54 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+54 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+54 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+54 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+54 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+54 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+54 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1044:10)
+54 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+54 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+54 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:965:12) pkgid: 'bowerbower', statusCode: 404, code: 'E404' }
+55 silly rollbackFailedOptional Starting
+56 silly rollbackFailedOptional Finishing
+57 silly runTopLevelLifecycles Finishing
+58 silly install printInstalled
+59 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/bowerbower
+59 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+59 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+59 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+59 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+59 verbose stack     at emitTwo (events.js:106:13)
+59 verbose stack     at Request.emit (events.js:191:7)
+59 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1044:10)
+59 verbose stack     at emitOne (events.js:96:13)
+59 verbose stack     at Request.emit (events.js:188:7)
+59 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:965:12)
+60 verbose statusCode 404
+61 verbose pkgid bowerbower
+62 verbose cwd C:\xampp\htdocs\xstore.mose.com
+63 error Windows_NT 10.0.14393
+64 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "bowerbower" "install" "admin-lte"
+65 error node v6.9.1
+66 error npm  v3.10.8
+67 error code E404
+68 error 404 Registry returned 404 for GET on https://registry.npmjs.org/bowerbower
+69 error 404
+70 error 404 'bowerbower' is not in the npm registry.
+71 error 404 You should bug the author to publish it (or use the name yourself!)
+72 error 404 Note that you can also install from a
+73 error 404 tarball, folder, http url, or git url.
+74 verbose exit [ 1, true ]
